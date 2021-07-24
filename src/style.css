@@ -1,11 +1,27 @@
 :root {
     --heading-font: font-family: 'Fraunces', serif;
     --body-font: font-family: font-family: 'Poppins', sans-serif;
-    --primary-color: #272343;
-    --secondary-color: #BAE8E8;
+    --primary-color: #1f1944;
+    --secondary-color: #68c9c9;
+    --tertiary-color: #e3f6f5;
+}
+.navbar {
+    background: var(--primary-color);
+}
+.nav-link {
+    color: var(--tertiary-color);
+    font-family: var(--heading-font);
+}
+.navbar-brand {
+    color: var(--tertiary-color);
+    font-family: var(--heading-font);
+}
+
+.active {
+    color: var(--secondary-color);
 }
 .hero {
-    background: #e3f6f5;
+    background: var(--tertiary-color);
     padding: 160px 20px;
     text-align: center;
 }
@@ -26,4 +42,106 @@
     font-family: var(--body-font);
     font-weight:400;
     margin-top: 24px;
+}
+.homepage-heading {
+color: var(--secondary-color);
+font-size: 60px;
+font-family: var(--heading-font);
+margin-top: 75px;
+}
+.welcome p  {
+color: var(--primary-color);
+font-family: var(--body-font);
+font-size: 17px;
+}
+.achievements {
+color: var(--primary-color);
+font-family: var(--body-font);
+font-size: 19px;    
+font-weight: 500;
+}
+.icons {
+display: flex;
+justify-content: space-evenly;
+font-size: 30px;
+}
+.learn-more {
+border: 1px solid  var(--primary-color);
+background-color: var(--primary-color);
+border-radius: 3%;
+color: var(--tertiary-color);
+font-family: var(--heading-font);
+padding: 10px 15px;
+text-decoration: none;
+text-transform:uppercase;
+}
+.learn-more:hover {
+background: var(--tertiary-color);
+color: var(--secondary-color);
+}
+.image-wrapper {
+background: var(--tertiary-color);
+border-radius: 2%;
+margin: 0 40px 40px 40px;
+}
+.homepage-image {
+display: block;
+margin: 10px auto;
+}
+.link-wrapper {
+margin-top: 65px;
+}
+.certificate {
+height: auto;
+width: 400px;
+}
+footer {
+margin-top: 75px;
+margin-bottom: 50px;
+}
+.footer-header {
+color: var(--primary-color);
+font-size: 27px;
+font-weight: 400;
+font-family: var(--heading-font);
+}
+.social-link {
+color: var(--secondary-color);
+font-size: 30px;
+margin: 0px 7px 0 7px;
+}
+.social-link:hover {
+color: var(--primary-color);
+}
+.social-links {
+margin-top: 17px;
+}
+.signature {
+color: var(--primary-color);
+font-family: var(--body-font);
+margin-top: 30px;
+}
+.github-link {
+color: var(--secondary-color);
+text-decoration: none;
+}
+.github-link:hover {
+color: var(--secondary-color);
+}
+@media (max-width: 376px) {
+    .hero h1 {
+    font-size: 30px;
+    margin: 0 20px 10px 20px;
+  }
+   .hero p {
+   font-size: 15px;
+   margin: 0 70px; 
+   }
+   .hero h2 {
+    font-size: 25px;
+   }
+   .homepage-heading {
+    font-size: 30px;
+   }
+  
 }
