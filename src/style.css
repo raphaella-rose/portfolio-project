@@ -5,6 +5,7 @@
   --secondary-color: #68c9c9;
   --tertiary-color: #e3f6f5;
 }
+
 .navbar {
   background: var(--primary-color);
 }
@@ -16,12 +17,13 @@
   color: var(--tertiary-color);
   font-family: var(--heading-font);
 }
+.menu-icon {
+  color: var(--tertiary-color);
+}
 .active {
   color: var(--secondary-color);
 }
-
 .hero {
-  border: 1px solid red;
   background: var(--tertiary-color);
   padding: 160px 0;
   text-align: center;
@@ -83,11 +85,11 @@
 .image-wrapper {
   background: var(--tertiary-color);
   border-radius: 2%;
-  margin: 0 40px 40px 40px;
+  padding: 12px 10px;
 }
 .homepage-image {
   display: block;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 .link-wrapper {
   margin-top: 65px;
