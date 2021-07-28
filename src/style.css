@@ -76,6 +76,7 @@
   font-family: var(--heading-font);
   text-align: center;
 }
+
 .welcome p {
   color: var(--primary-color);
   font-family: var(--body-font);
@@ -186,11 +187,37 @@
   height: auto;
   width: 400px;
 }
+.contact-details {
+  color: #68c9c9;
+  font-family: var(--body-font);
+  padding: 0;
+  text-decoration: none;
+}
+.availability {
+  color: var(--secondary-color);
+  font-family: var(--body-font);
+}
+.reach-out {
+  color: var(--primary-color);
+  font-size: 25px;
+  font-family: var(--heading-font);
+  text-align: center;
+  margin-top: 75px;
+}
 .footer-header {
   color: var(--primary-color);
   font-size: 27px;
   font-weight: 400;
   font-family: var(--heading-font);
+}
+.contact-link {
+  color: var(--secondary-color);
+  font-size: 15px;
+  text-decoration: none;
+}
+.contact-link:hover {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 .social-link {
   color: var(--secondary-color);
@@ -215,8 +242,13 @@
 .github-link:hover {
   color: var(--secondary-color);
 }
+.about-heading {
+  color: var(--secondary-color);
+  font-family: var(--heading-font);
+}
 .about-me-text {
-  margin-top: 145px;
+  font-family: var(--body-font);
+  color: var(--primary-color);
 }
 .picture-set {
   margin-top: 75px;
@@ -239,8 +271,11 @@ h1 {
   font-family: var(--heading-font);
 }
 @media (max-width: 426px) {
-  h1 {
+  .hero h1 {
     font-size: 30px;
+  }
+  header h1 {
+    font-size: 50px;
   }
   .hero {
     padding: 165px 0;
@@ -256,5 +291,8 @@ h1 {
   }
   .about-me-text {
     margin-top: 100px;
+  }
+  .contact-heading {
+    font-size: 25px;
   }
 }
