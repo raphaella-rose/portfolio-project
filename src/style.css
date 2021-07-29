@@ -190,12 +190,13 @@
 .contact-details {
   color: #68c9c9;
   font-family: var(--body-font);
-  padding: 0;
-  text-decoration: none;
+  padding: 0 75px;
+  list-style-type: none;
 }
 .availability {
   color: var(--secondary-color);
   font-family: var(--body-font);
+  padding: 0 50px;
 }
 .reach-out {
   color: var(--primary-color);
@@ -213,7 +214,7 @@
 .contact-link {
   color: var(--secondary-color);
   font-size: 15px;
-  text-decoration: none;
+  list-style: none;
 }
 .contact-link:hover {
   color: var(--primary-color);
