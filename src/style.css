@@ -235,6 +235,7 @@
   color: var(--primary-color);
   font-family: var(--body-font);
   margin-top: 30px;
+  padding: 0 50px;
 }
 .github-link {
   color: var(--secondary-color);
