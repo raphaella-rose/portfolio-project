@@ -77,6 +77,9 @@
   text-align: center;
 }
 
+.welcome {
+  padding: 0 20px;
+}
 .welcome p {
   color: var(--primary-color);
   font-family: var(--body-font);
@@ -243,6 +246,9 @@
 }
 .github-link:hover {
   color: var(--secondary-color);
+}
+.about {
+  padding: 0 20px;
 }
 .about-heading {
   color: var(--secondary-color);
