@@ -40,7 +40,7 @@
 }
 .hero {
   background: var(--tertiary-color);
-  padding: 160px 0;
+  padding: 250px 0;
   text-align: center;
 }
 
@@ -286,7 +286,7 @@ h1 {
     font-size: 50px;
   }
   .hero {
-    padding: 165px 0;
+    padding: 230px 0;
   }
   .hero p {
     font-size: 15px;
